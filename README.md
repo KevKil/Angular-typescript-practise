@@ -1,4 +1,7 @@
 # ANGULAR TYPESCRIPT PRACTICE
+https://www.youtube.com/watch?v=3qBXWUpoPHo
+at 1:35:45
+
 
 ## 1. Tools and Installation
 1. Download and install node, npm and vscode if not available
