@@ -1,6 +1,6 @@
 # ANGULAR TYPESCRIPT PRACTICE
 https://www.youtube.com/watch?v=3qBXWUpoPHo
-at 1:35:45
+at 1:51:17
 
 
 ## 1. Tools and Installation
@@ -9,5 +9,6 @@ at 1:35:45
     - run npm -v
     - run node -v
  - To update/ install npm ( -g is for global)
-    - npm install -g npm@<latest version number>
- - To install t
+    - npm install -g npm@[latest version number]
+ - To install typescript compiler
+    -
