@@ -1,6 +1,6 @@
 # ANGULAR TYPESCRIPT PRACTICE
 https://www.youtube.com/watch?v=3qBXWUpoPHo
-at 1:51:17
+at 2:08:34
 
 
 ## 1. Tools and Installation
@@ -24,4 +24,11 @@ at 1:51:17
 ## 3. Change typescript setings
 - Can be edited from  *tsconfig.json* file
 
+## 4. To run typescript code
 
+Typescript code must be transpiled to javascript file i.e with a .js before it can be run
+
+1. Compile the code 
+ - *tsc* in terminal
+2. To run the code
+ - *node* filename or ./filename or filename.js

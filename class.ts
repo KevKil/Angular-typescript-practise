@@ -1,3 +1,8 @@
+// import {Login, User} from './interface';
+
+// can also use aliases to chain classes and interfaces
+import * as UserLogin from './interface'
+
 /// Employee class without the constuctor. Will be provided with default 
 /////constructor without any params i.e Employee()
 // class Employee {
@@ -7,7 +12,7 @@
 // }
 
 /// Setting up class with parameterized constructor
-class Employee {
+class Employee implements UserLogin.Login{
     id: number;
     name: string;
     address: string;
@@ -16,6 +21,11 @@ class Employee {
         this.id = id;
         this.name = name;
         this.address = address
+    }
+
+    // implimented method
+    login(): UserLogin.User {
+        throw new Error('Method not implemented.');
     }
 
     // Methods
