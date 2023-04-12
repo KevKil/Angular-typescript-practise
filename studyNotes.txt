@@ -1,0 +1,36 @@
+1. DataTypes -- (datatypes.ts)
+Types can be infered on init but it is proper to declare variabl with type 
+i.e name : String
+ a. string
+ b. number
+ c. boolean -> must be declared on initialisation
+ d. arrays
+ e. generics
+ f. enums
+ g. tuples
+ h. any
+ g. void
+ i. never
+
+2. Functions -- (my_functions)
+ - name Functions
+ - optional params
+ - required params
+ - rest params i.e ...num3: number[]
+
+3. Classes -- (class.ts)
+ - params const, no params const
+ - add ! to fields with no params const which is the default
+ - !id: name
+
+4. Class member permissions -- (permissions.ts)
+ - private fields id# : name
+ - private, protected public
+ - getter setters
+
+5. Interfaces -- (interface.ts)
+ - why use it -- to avoid constuctor
+ - using as type
+ - implimenting it -- using a class 
+ - optional properties(?), 
+ - extending interfaces -- using another interface
