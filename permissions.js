@@ -43,7 +43,7 @@ let kevo = new PrivateEmployee(2, "Paul", "MSA");
 // console.log(kevo.id) /// inaccessible to read because id is private
 console.log(kevo); //PrivateEmployee { name: 'Paul', address: 'MSA' }
 console.log(kevo.getNameWithAddress());
-// kevo.name  -- Protected fields are nnot visible after creating instance
+// console.log(kevo.name)  -- Protected fields are nnot visible after creating instance
 // 
 class Manager extends PrivateEmployee {
     constructor(id, name, address) {

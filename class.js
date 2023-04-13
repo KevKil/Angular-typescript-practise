@@ -1,4 +1,6 @@
 "use strict";
+// import {Login, User} from './interface';
+Object.defineProperty(exports, "__esModule", { value: true });
 /// Employee class without the constuctor. Will be provided with default 
 /////constructor without any params i.e Employee()
 // class Employee {
@@ -12,6 +14,10 @@ class Employee {
         this.id = id;
         this.name = name;
         this.address = address;
+    }
+    // implimented method
+    login() {
+        throw new Error('Method not implemented.');
     }
     // Methods
     getNameWithAddress() {

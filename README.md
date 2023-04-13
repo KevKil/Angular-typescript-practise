@@ -25,10 +25,12 @@ at 2:08:34
 - Can be edited from  *tsconfig.json* file
 
 ## 4. To run typescript code
-
-Typescript code must be transpiled to javascript file i.e with a .js before it can be run
+Typescript code must be compiled to javascript file i.e with a .js.
+This .js file is what will be run
 
 1. Compile the code 
  - *tsc* in terminal
 2. To run the code
  - *node* filename or ./filename or filename.js
+
+Check study notes for updates on things studied.

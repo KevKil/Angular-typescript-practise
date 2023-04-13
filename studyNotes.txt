@@ -1,3 +1,4 @@
+        TYPESCRIPT
 1. DataTypes -- (datatypes.ts)
 Types can be infered on init but it is proper to declare variabl with type 
 i.e name : String
@@ -34,3 +35,14 @@ i.e name : String
  - implimenting it -- using a class 
  - optional properties(?), 
  - extending interfaces -- using another interface
+
+NB:: Use classes if you want objects that can be refernced and exist after instantiation
+
+6. Import and export
+- Add export before the method you are to make avaialbelglobally
+- Use import statement to import the exported module in the file where it is needed.
+
+Also added info on
+ a: decorators
+ b: Esmodules - this is the JavaScript version being used after compiling typescript to javascript
+ c: tsconfig - changes that can be made to tsconfig
