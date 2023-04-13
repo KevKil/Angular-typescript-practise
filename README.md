@@ -1,7 +1,6 @@
 # ANGULAR TYPESCRIPT PRACTICE
 https://www.youtube.com/watch?v=3qBXWUpoPHo
-at 2:08:34
-
+finished Typescript at 2:20:00
 
 ## 1. Tools and Installation
 1. Download and install node, npm and vscode if not available
